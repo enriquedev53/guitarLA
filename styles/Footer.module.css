@@ -1,7 +1,7 @@
 .footer {
     background-color: var(--negro);
-    padding: 5rem 0;
     margin-top: 5rem;
+    padding: 2rem 0;
 }
 
 @media (min-width:768px) {
@@ -27,7 +27,7 @@
 .navegacion a {
     color: var(--blanco);
     text-decoration: none;
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
 }

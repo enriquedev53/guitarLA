@@ -8,14 +8,14 @@ const Header = () => {
         <div className='contenedor'>
             <div className={styles.barra}>
                 <Link href='/'>
-                    <Image width={400} height={100} src='/img/logo.svg' alt='logo'></Image>
+                    <Image width={130} height={130} src='/img/logo.svg' alt='logo'></Image>
                 </Link>
 
                     
                 <nav className={styles.navegacion}>
                     <Link href='/'>Incio</Link>
                     <Link href='/nosotros'>Nosotros</Link>
-                    <Link href='/blog'>Blog</Link>
+                    <Link href='/musica'>Música</Link>
                     <Link href='/tienda'>Tienda</Link>
                 </nav>
             </div>

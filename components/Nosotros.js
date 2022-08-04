@@ -1,12 +1,9 @@
 import Image from 'next/image'
-import Layout from '../components/Layout'
 import styles from '../styles/Nosotros.module.css'
 
 const nosotros = () => {
   return (
-    <Layout 
-    pagina='Nosotros'>
-      <main className='contenedor'>
+    <div className='contenedor'>
         <h2 className='heading'>Nosotros</h2>
           <div className={styles.contenido}>
 
@@ -19,8 +16,7 @@ const nosotros = () => {
               <p>Con diversas presentaciones en el Estado de México y Área Metropólitana, destacan eventos realizados por los planteles de la Universidad Autónoma del Estado de México (UAEM) y el Festival Agua Blanca que se lleva a cabo cada año.</p>
             </div>
           </div>
-      </main>
-    </Layout>
+      </div>
   )
 }
 
